@@ -4,10 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="scripts.js"></script>
+    <script src="scripts.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee">
     <title>Rock Paper Scissors Game</title>
 </head>
 <body>
-    
+    <header>
+        <h1 class="title">ROCK PAPER SCISSORS</h1>
+    </header>
+    <div class="table-score">
+        <div class="player-score">
+            <img src="./images/placeholder.png" alt="" class="player-choice">
+            <h3 class="score-title">Player Score</h3>
+            <p class="p-score">0</p>
+        </div>
+        <div class="computer-score">
+            <img src="./images/placeholder-pc.png" alt="" class="computer-choice">
+            <h3 class="score-title">Computer Score</h3>
+            <p class="c-score">0</p>
+        </div>
+    </div>
+    <div class="result">
+        <p class="result-text">Please choose one: </p>
+    </div>
+    <div class="img-container">
+        <img src="images/Rock.png" alt="Rock" class="img-choices">
+        <img src="images/Paper.png" alt="Paper" class="img-choices">
+        <img src="images/Scissor.png" alt="Scissor" class="img-choices">
+    </div>
+    <footer>
+        <!-- icon provided by Freepik-->
+        <p>Created by guchoo</p>
+        <a href="http://github.com/"><img src="./images/github.png" alt="GitHub" class="github-icon"></a>
+    </footer>
+    <div class="modal">
+        <div class="modal-content">
+            <p class="modal-text">You want to play again?</p>
+            <a href="/"><button class="modal-button">Play again!</button></a>
+        </div>
+    </div>
+
 </body>
 </html>
