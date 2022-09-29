@@ -7,7 +7,12 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: rgba(30, 29, 41, 0.973);
+    /* background from ui gradients */
+    background-color: #00bff8;
+    background-image: linear-gradient(90deg, #00bff8 4%, #ff0004 100%);
+
+
+
     font-family: 'Quicksand';
 }
 
